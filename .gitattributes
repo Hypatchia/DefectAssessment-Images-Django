@@ -1,2 +1,4 @@
 ClassifierModel/static/ClassifierModel/js/* linguist-vendored
 ClassifierModel/static/ClassifierModel/css/* linguist-vendored
+staticroot/admin/css/* linguist-vendored
+staticroot/admin/js/* linguist-vendored
