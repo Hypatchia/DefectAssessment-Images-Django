@@ -33,7 +33,7 @@ The full working django app can be accessed at <a >impellerdefectasssessment.azu
 
 
 * Screenshot for the App:
-  <img src="webapp.jpeg" alt="Model Architecture" style="height:0%; width:60%;">
+  <img src="webpage.jpeg" alt="Model Architecture" style="height:0%; width:100%;">
 
 
 ### Setup to run 
