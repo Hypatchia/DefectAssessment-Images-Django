@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/b47be82c-da3c-46b1-9826-46b37a244225/resourceGroups/ImagesDefectAssessment/providers/Microsoft.Web/sites/PumpDefectAssessment",
+    "appService.deploySubpath": "."
+}

@@ -1,0 +1,197 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Pump Defect Assessment</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Marvel HTML Bootstrap 4 Template</title>
+
+    <link rel="stylesheet" href=" {% static 'ClassifierModel/css/bootstrap.min.css' %}">
+     <link rel="stylesheet" href="{% static 'ClassifierModel/css/owl.carousel.min.css'%}">
+    <link rel="stylesheet" href="{% static 'ClassifierModel/css/owl.theme.default.min.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- MAIN STYLE -->
+
+    <link rel="stylesheet" href="{%static 'ClassifierModel/css/tooplate-style.css'%}">
+   
+</head>
+<body>
+
+
+
+      <!-- MENU -->
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href=""> Impeller Defect Assessment</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="Home">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/pulse/what-ai-based-visual-inspection-its-use-cases-tagx/" class="nav-link"><span data-hover="Visual Inspection: AI">Visual Inspection: AI</span></a>
+                    </li>
+               
+                   
+                    <li class="nav-item">
+                        <a href="https://github.com/Hypatchia/ImpellerDefectAssessment" class="nav-link"><span data-hover="Github">Github</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/samiabelhaddad/" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class=" d-lg-flex justify-content-center align-items-center">
+               
+                        <a href="https://samiabelhaddad.me" class="nav-link"> Samia BELHADDAD</a>
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+     <!-- ABOUT -->
+     <div class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="information">
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Visual Defect Assessment of Produced <span class="mobile-block">Pump Impellers </span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2 big-text">Image Classification of Products to:</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Defected</span>
+                                    <span class="animated-item">Non Defected</span>
+                                     </div>
+                                <div class="about-image">
+                                    <img src="{%static 'ClassifierModel/images/1.png'%}" class="img-fluid" >
+                                </div>
+                             
+                        </h1>
+
+                        <div class="custom-btn-group mt-4">
+                          <a href="https://www.github.com/Hypatchia" class="btn mr-lg-2 custom-btn"><i class='fab fa-github'></i> Github</a>
+                          <a href="#overview" class="btn mr-lg-2 custom-btn"><i class=''></i>Overview</a>
+                      
+                          <a href="#try" class="btn custom-btn custom-btn-bg custom-btn-link">Try it</a>
+                        </div>
+                        <div class="extra" id="overview">
+                            <h2>Overview</h2>
+                            <p class="description"> A pump impeller is a component that rotates within a submersible pump to move fluids.<br> 
+                                The design varies for different applications and fluid types.
+                                <br>
+                                Below is an Image of the Impeller that this tool can assess with 98% accuracy:<br>
+                                <br>
+                                <img src="{% static 'ClassifierModel/images/submersible-pump-impeller.jpg' %}" alt="Submersible Pump Impeller" class="image">
+                    
+                         <h2>Scope</h2>
+                              <p>  In a production line, the impeller is placed on a conveyor belt and a camera takes a picture of the impeller. 
+                                <br> The image is then analyzed by a machine learning model to determine whether the impeller has a front defect or not.
+                                <br> If the impeller has a front defect, it is removed from the conveyor belt.<br>
+                                 If the impeller does not have a front defect, it is placed in a box and shipped to customers.
+                                <br>    
+                                </p>
+                            <p>
+                                Explore more about submersible pump impellers on
+                                <a href="https://www.google.com/search?q=submersible+pump+impeller" target="_blank">Google</a>.
+                            </p> 
+                            <h2 >How it works</h2>
+       
+                            <h4>In Manufacturing Circumstances</h4> <p> Real Time Integration into a Production Machinery with a Camera
+                           The tool would be integrated into a Visual Inspection System in a Production line <br>
+                            It should take input from cameras or sensors, process the data, and make predictions about whether the item is defective or not.</p>
+                            <h4  id="try">In This Demonstration:</h4>
+                            <p> Real time inference through a Web App Developed in Django & Deployed to Azure
+                                To assess whether an uploaded image of a produc, follow these steps:
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+         
+        </div>
+    </div>
+    
+
+    <div class="container-row">
+ 
+       <h3>Try App</h3>
+          
+        <ol>
+            <li><p>Click the "Choose File" button to upload an image of the submersible pump impeller that you want to analyze.</p></li>
+            <li><p>Once the image is selected, click "Upload and Predict." The tool will use a pre-trained machine learning model to make a prediction based on the image.</p></li>
+            <li><p>The prediction will be displayed, indicating whether the image shows a front defect or not.</p> </li>
+        <li><p>ll also have access to prediction probabilities, which offer insights into the model's confidence in its assessment.</p></li>
+        </ol>
+
+
+        <form method="post" enctype="multipart/form-data" action="{% url 'upload_image' %}">
+            {% csrf_token %}
+            {{ form.image }}
+            <div id="imagePreview"></div><br>
+            <input type="submit" class="btn mr-lg-2 custom-btn custom-btn-bg" value="Upload and Predict">
+        </form>
+     
+        <div id="prediction-result" style="display: none;">
+            <h4>Predicted Class</h4>
+            <p class="prediction" id="prediction-label"></p>
+            <h4>Class Probabilities</h4>
+            <p>Probability of Product being defect-free.</p>
+            <pre id="prediction-probabilityOK"></pre>
+            <br>
+            <p>Probability of Product being Defected</p>
+            <pre id="prediction-probabilityDefect"></pre>
+        </div>
+    </div>
+
+      
+</div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer py-5">
+        <div class="container">
+             <div class="row">
+
+                  <div class="col-lg-12 col-12">   
+                    
+                    <div class="d-flex  mr-l-5 social">
+                        <a class="btn btn-outline-dark btn-social mr-2" href="mailto:samiamagbelhaddad@gmail.com"><i class="fa fa-envelope"></i></a>
+                        <a class="btn btn-outline-dark btn-social mr-2" href="tel:+213541325492"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-outline-dark btn-social mr-2 " href="https://www.github.com/Hypatchia"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-outline-dark btn-social mr-2" href="https://www.linkedin.com/in/samiabelhaddad/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                      <p class="copyright-text text-center">Project Copyright &copy; 2023 Samia BELHADDAD, All rights reserved </p>
+                       </div>
+                  
+             </div>
+        </div>
+   </footer>
+
+    <script src="{% static 'ClassifierModel/js/jquery-3.3.1.min.js'%}"></script>
+    <script src="{% static 'ClassifierModel/js/popper.min.js'%}"></script>
+    <script src="{% static 'ClassifierModel/js/bootstrap.min.js'%}"></script>
+    <script src="{% static 'ClassifierModel/js/Headroom.js'%}"></script>
+    <script src="{% static 'ClassifierModel/js/jQuery.headroom.js'%}"></script>
+    <script src="{% static 'ClassifierModel/js/owl.carousel.min.js'%}"></script>
+    <script src="{% static 'ClassifierModel/js/smoothscroll.js'%}"></script>
+    <script src="{% static 'ClassifierModel/js/script.js' %}"></script>
+</body>
+</html>
