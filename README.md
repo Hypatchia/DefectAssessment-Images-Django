@@ -51,6 +51,7 @@ This scalable Django-based application utilizes computer vision to provide real-
 
 
 * Screenshot for the App:
+  
   <img src="webapp.jpeg" alt="Model Architecture" style="height:0%; width:60%;">
 
 
